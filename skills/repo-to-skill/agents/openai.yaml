@@ -1,0 +1,4 @@
+interface:
+  display_name: "开源仓库转 Skill"
+  short_description: "带许可证、溯源和行为评测的原创 Skill 改造流程"
+  default_prompt: "把这个开源仓库提炼成可维护的 Skill，并保留完整溯源。"

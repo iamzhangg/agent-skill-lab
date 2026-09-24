@@ -1,0 +1,30 @@
+{
+  "question": "How are Agent Skills packaged for Chinese-speaking developers?",
+  "as_of": "2026-09-24",
+  "items": [
+    {
+      "claim": "A Skill is commonly packaged around a SKILL.md entry point with optional scripts and references.",
+      "url": "https://agentskills.io/",
+      "title": "Agent Skills",
+      "publisher": "Agent Skills",
+      "published_at": null,
+      "accessed_at": "2026-09-24",
+      "tier": "A",
+      "support": "The public specification describes the portable folder format and progressive loading model.",
+      "status": "supports",
+      "limitations": "The ecosystem and client-specific installation behavior continue to evolve."
+    },
+    {
+      "claim": "Chinese-first collections package workflows such as technical-document translation and content archiving as separate installable Skills.",
+      "url": "https://github.com/hanzhangzzz/agent-skills-zh",
+      "title": "agent-skills-zh",
+      "publisher": "hanzhangzzz",
+      "published_at": null,
+      "accessed_at": "2026-09-24",
+      "tier": "C",
+      "support": "The repository documents one Skill per capability and cross-agent installation.",
+      "status": "context",
+      "limitations": "Repository documentation is self-reported and does not establish usage or reliability."
+    }
+  ]
+}

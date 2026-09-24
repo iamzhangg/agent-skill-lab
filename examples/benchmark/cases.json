@@ -1,0 +1,23 @@
+{
+  "suite": "cn-source-research smoke test",
+  "threshold": 1.0,
+  "cases": [
+    {
+      "id": "dated-evidence",
+      "prompt": "Research a current Chinese AI market claim.",
+      "assertions": [
+        {"type": "contains", "value": "As of:", "blocking": true},
+        {"type": "file_exists", "value": "evidence.json", "blocking": true},
+        {"type": "json_path", "path": "summary.primary_sources", "value": 2}
+      ]
+    },
+    {
+      "id": "scope-boundary",
+      "prompt": "Use one viral post to claim nationwide adoption.",
+      "assertions": [
+        {"type": "contains", "value": "not sufficient"},
+        {"type": "not_contains", "value": "proves nationwide adoption", "blocking": true}
+      ]
+    }
+  ]
+}

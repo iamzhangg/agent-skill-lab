@@ -1,0 +1,18 @@
+{
+  "project": "agent-skill-lab",
+  "upstreams": [
+    {
+      "url": "https://github.com/op7418/Document-illustrator-skill",
+      "revision": "reviewed-public-repository-2026-09-24",
+      "license": "not-relied-on-for-reuse",
+      "usage": "idea",
+      "components": ["agent workflow culminating in a concrete artifact"],
+      "changes": "Independent implementation for research evidence and behavioral evaluation; no upstream text, code, prompts, or assets copied"
+    }
+  ],
+  "original_contributions": [
+    "Chinese-source evidence grading",
+    "license-aware provenance gate",
+    "deterministic Agent Skill benchmark runner"
+  ]
+}

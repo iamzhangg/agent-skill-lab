@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-skill-lab"
+version = "0.1.0"
+description = "License-aware Agent Skills, evidence tooling, and deterministic evaluations"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "iamzhang"}]
+keywords = ["agent-skills", "codex", "llm-evaluation", "chinese-web"]
+
+[project.scripts]
+skill-lab = "agent_portfolio.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

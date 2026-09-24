@@ -1,0 +1,16 @@
+{
+  "results": [
+    {
+      "id": "dated-evidence",
+      "transcript": "As of: 2026-09-24. The synthesis separates facts from inference.",
+      "files": ["evidence.json", "evidence.md"],
+      "data": {"summary": {"primary_sources": 2}}
+    },
+    {
+      "id": "scope-boundary",
+      "transcript": "One viral post is not sufficient to infer nationwide adoption.",
+      "files": [],
+      "data": {}
+    }
+  ]
+}
