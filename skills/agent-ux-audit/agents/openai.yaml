@@ -1,0 +1,5 @@
+interface:
+  display_name: "Agent UX Audit"
+  short_description: "Audit AI product control, trust, and recovery states"
+  brand_color: "#6546A4"
+  default_prompt: "Use $agent-ux-audit to review this AI flow and produce testable findings."

@@ -4,9 +4,9 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-一套面向真实工作的 Agent Skills 与评测工具。重点不是“收藏提示词”，而是把研究、开源改造和行为评测变成可追踪、可测试、可回归的工程流程。
+一套面向真实工作的 Agent Skills、AI 产品方法与交互原型。重点不是“收藏提示词”，而是把市场洞察、需求定义、体验设计、发布和评测变成可追踪、可测试、可回归的产品工程流程。
 
-An original, bilingual portfolio of production-minded Agent Skills. Each Skill couples concise agent instructions with deterministic tooling, provenance, and test evidence.
+An original, bilingual AI product portfolio. Each Skill and prototype couples product judgment with deterministic tooling, provenance, and test evidence.
 
 ## Why this repository
 
@@ -17,6 +17,17 @@ An original, bilingual portfolio of production-minded Agent Skills. Each Skill c
 | [`cn-source-research`](skills/cn-source-research/SKILL.md) | 中文与中国市场研究容易混用转载、平台热度和过期信息 | 分级、带日期、可渲染的 evidence pack |
 | [`repo-to-skill`](skills/repo-to-skill/SKILL.md) | “改装开源 Skill”容易沦为换皮或遗漏许可证 | provenance record + license gate + original-value check |
 | [`skill-benchmark`](skills/skill-benchmark/SKILL.md) | Skill 的效果常靠截图和单次演示证明 | 场景化断言、阻断项、机器可读评分报告 |
+| [`china-opportunity-radar`](skills/china-opportunity-radar/SKILL.md) | 中国市场信号容易把关注度误当需求 | 证据分级、JTBD、机会评分与反证实验 |
+| [`feedback-to-prd`](skills/feedback-to-prd/SKILL.md) | PRD 容易与原始用户反馈失去联系 | 可追溯需求、RICE 与确定性校验 |
+| [`agent-ux-audit`](skills/agent-ux-audit/SKILL.md) | AI 体验评审容易停留在视觉和文案 | 控制、验证、恢复与信任的可测试审计 |
+| [`multimodal-launch-kit`](skills/multimodal-launch-kit/SKILL.md) | 发布内容会夸大未验证或规划中能力 | claim ledger、镜头计划与资产清单 |
+
+## Interactive product prototypes
+
+| Prototype | Product question | Live experience |
+|---|---|---|
+| [Agent Trust Lab](https://github.com/iamzhangg/agent-trust-lab) | Agent 何时应执行、确认、升级或停止？ | [GitHub Pages](https://iamzhangg.github.io/agent-trust-lab/) |
+| [AI Feature Tradeoff Lab](https://github.com/iamzhangg/ai-feature-tradeoff-lab) | 如何同时权衡价值、质量、成本、隐私和交付？ | [GitHub Pages](https://iamzhangg.github.io/ai-feature-tradeoff-lab/) |
 
 ## Standalone repositories
 
@@ -27,6 +38,10 @@ Each Skill can be installed and maintained independently:
 | [iamzhangg/cn-source-research](https://github.com/iamzhangg/cn-source-research) | `npx skills add iamzhangg/cn-source-research` |
 | [iamzhangg/repo-to-skill](https://github.com/iamzhangg/repo-to-skill) | `npx skills add iamzhangg/repo-to-skill` |
 | [iamzhangg/skill-benchmark](https://github.com/iamzhangg/skill-benchmark) | `npx skills add iamzhangg/skill-benchmark` |
+| [iamzhangg/china-opportunity-radar](https://github.com/iamzhangg/china-opportunity-radar) | `npx skills add iamzhangg/china-opportunity-radar` |
+| [iamzhangg/feedback-to-prd](https://github.com/iamzhangg/feedback-to-prd) | `npx skills add iamzhangg/feedback-to-prd` |
+| [iamzhangg/agent-ux-audit](https://github.com/iamzhangg/agent-ux-audit) | `npx skills add iamzhangg/agent-ux-audit` |
+| [iamzhangg/multimodal-launch-kit](https://github.com/iamzhangg/multimodal-launch-kit) | `npx skills add iamzhangg/multimodal-launch-kit` |
 
 This monorepo remains the architecture, integration, and shared-tooling hub. The standalone repositories are self-contained distributions with their own examples, tests, and CI.
 

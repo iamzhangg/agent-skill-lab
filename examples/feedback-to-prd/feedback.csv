@@ -1,0 +1,4 @@
+id,text,source,segment
+F001,I cannot tell whether the agent is still working,interview,frequent-user
+F002,I want approval before anything is sent,usability-test,team-admin
+F003,The draft is useful but I need to see its sources,support,analyst

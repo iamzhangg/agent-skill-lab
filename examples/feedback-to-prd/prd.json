@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0",
+  "title":"Controllable agent execution",
+  "decision":"Which trust controls enter the next prototype?",
+  "feedback":[
+    {"id":"F001","text":"I cannot tell whether the agent is still working","source":"interview","segment":"frequent-user"},
+    {"id":"F002","text":"I want approval before anything is sent","source":"usability-test","segment":"team-admin"},
+    {"id":"F003","text":"The draft is useful but I need to see its sources","source":"support","segment":"analyst"}
+  ],
+  "themes":[{"id":"T1","job":"Understand and control agent execution","evidence_ids":["F001","F002","F003"]}],
+  "requirements":[
+    {"id":"R1","title":"Expose execution state and approval gates","evidence_ids":["F001","F002"],"outcome":"Users know what is happening and retain control before external effects","success_metric":"At least 90% of usability participants correctly predict whether the next action needs approval","non_goals":["Guaranteeing model correctness"],"reach":80,"impact":3,"confidence":0.75,"effort":4}
+  ]
+}

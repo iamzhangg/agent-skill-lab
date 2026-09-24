@@ -1,6 +1,8 @@
 import json
 import tempfile
 import unittest
+import subprocess
+import sys
 from pathlib import Path
 
 from agent_portfolio.benchmark import grade_suite
@@ -47,6 +49,21 @@ class RepositoryTests(unittest.TestCase):
         }]}
         with self.assertRaisesRegex(ValueError, "HTTP"):
             validate_evidence_pack(pack)
+
+    def test_new_skill_examples_validate(self):
+        cases = [
+            ("china-opportunity-radar", "radar.py", "opportunities.json"),
+            ("feedback-to-prd", "feedback_prd.py", "prd.json"),
+            ("agent-ux-audit", "audit.py", "audit.json"),
+            ("multimodal-launch-kit", "launch.py", "launch.json"),
+        ]
+        for skill, script, sample in cases:
+            with self.subTest(skill=skill):
+                result = subprocess.run([
+                    sys.executable, ROOT / "skills" / skill / "scripts" / script,
+                    "validate", ROOT / "examples" / skill / sample,
+                ], capture_output=True, text=True)
+                self.assertEqual(result.returncode, 0, result.stderr)
 
 
 if __name__ == "__main__":

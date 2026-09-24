@@ -1,0 +1,10 @@
+{
+  "schema_version":"1.0",
+  "owner":"iamzhangg",
+  "updated_at":"2026-09-24",
+  "skills":["cn-source-research","repo-to-skill","skill-benchmark","china-opportunity-radar","feedback-to-prd","agent-ux-audit","multimodal-launch-kit"],
+  "demos":[
+    {"name":"agent-trust-lab","repository":"https://github.com/iamzhangg/agent-trust-lab","demo":"https://iamzhangg.github.io/agent-trust-lab/"},
+    {"name":"ai-feature-tradeoff-lab","repository":"https://github.com/iamzhangg/ai-feature-tradeoff-lab","demo":"https://iamzhangg.github.io/ai-feature-tradeoff-lab/"}
+  ]
+}

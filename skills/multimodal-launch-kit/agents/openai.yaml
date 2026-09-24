@@ -1,0 +1,5 @@
+interface:
+  display_name: "Multimodal Launch Kit"
+  short_description: "Evidence-safe launch narratives and asset planning"
+  brand_color: "#E36B2C"
+  default_prompt: "Use $multimodal-launch-kit to turn this product material into a validated launch package."

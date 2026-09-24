@@ -1,0 +1,5 @@
+interface:
+  display_name: "Feedback to PRD"
+  short_description: "Traceable feedback synthesis and product requirements"
+  brand_color: "#176B5B"
+  default_prompt: "Use $feedback-to-prd to synthesize this feedback into a traceable PRD."

@@ -1,5 +1,9 @@
 # Portfolio talking points
 
+## Portfolio narrative
+
+The portfolio now follows one AI product lifecycle: find an evidence-backed opportunity, synthesize user feedback, specify the experience, audit agent trust states, plan a truthful launch, and prove behavior with regression tests. Two interactive labs make the product decisions visible without requiring an API key.
+
 ## The problem
 
 Agent Skills are easy to publish but hard to trust. A strong portfolio should demonstrate where the agent may improvise, where deterministic code should take over, and how failures become regression tests.
@@ -18,9 +22,16 @@ Agent Skills are easy to publish but hard to trust. A strong portfolio should de
 - License gates are an engineering checklist, not legal advice.
 - The example evidence pack demonstrates the format and contains only claims supported by linked public pages; it is not a comprehensive market report.
 
+## Interview walkthrough
+
+1. Start with `china-opportunity-radar` to show signal judgment and falsifiable discovery.
+2. Use `feedback-to-prd` to trace requirements to evidence instead of generating a generic PRD.
+3. Use `agent-ux-audit` and Agent Trust Lab to discuss autonomy, verification, and recovery.
+4. Close with AI Feature Tradeoff Lab and `skill-benchmark` to show prioritization and measurable quality.
+
 ## Suggested next milestones
 
 1. Add adapters for Codex and Claude Code execution traces.
 2. Add repeated-run variance and an optional calibrated LLM judge.
 3. Publish benchmark history as a small static dashboard.
-4. Add a fourth Skill that solves a domain problem from an actual target employer.
+4. Replace one synthetic case with an anonymized, permissioned case from a target employer domain.

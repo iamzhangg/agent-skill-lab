@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0",
+  "product":"Agent Trust Lab",
+  "audience":"AI product managers",
+  "goal":"Invite reviewers to explore autonomy policy tradeoffs",
+  "claims":[
+    {"id":"C1","text":"The simulator maps scenario inputs to deterministic action policies.","status":"demonstrated","source":"Repository tests and live demo"},
+    {"id":"C2","text":"The simulator guarantees safe agents.","status":"unsupported","source":"No evidence; excluded from assets"}
+  ],
+  "assets":[
+    {"id":"A1","channel":"GitHub README","format":"animated walkthrough","aspect_ratio":"16:9","source_refs":["local demo recording"],"claim_ids":["C1"],"status":"planned","start_seconds":0,"end_seconds":18},
+    {"id":"A2","channel":"LinkedIn","format":"launch post","aspect_ratio":"1:1","source_refs":["product brief"],"claim_ids":["C1"],"status":"planned"}
+  ]
+}

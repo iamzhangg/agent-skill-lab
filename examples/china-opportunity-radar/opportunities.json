@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-09-24",
+  "decision": "Which workflow problem should a small AI product team validate next?",
+  "evidence": [
+    {"id":"E1","claim":"Agent Skills package repeatable workflows as portable folders.","url":"https://agentskills.io/","publisher":"Agent Skills","accessed_at":"2026-09-24","tier":"A","metric_type":"context"},
+    {"id":"E2","claim":"Public Chinese-first skill collections emphasize research, product, and content workflows.","url":"https://github.com/ChenShuo2004/cs-skills","publisher":"ChenShuo2004","accessed_at":"2026-09-24","tier":"B","metric_type":"adoption"}
+  ],
+  "opportunities": [
+    {"id":"O1","title":"Evidence-linked product discovery","user":"small AI product teams","context":"reviewing fragmented Chinese-market signals","job":"decide which problem deserves validation","barrier":"platform metrics and reposts obscure evidence quality","outcome":"fund a falsifiable discovery sprint","evidence_ids":["E1","E2"],"evidence_strength":3,"user_value":4,"feasibility":4,"strategic_fit":4,"risks":["Public repositories do not prove broad market demand"],"disconfirming_test":"Interview five target PMs and stop if fewer than three can name a recent decision harmed by weak traceability."}
+  ]
+}

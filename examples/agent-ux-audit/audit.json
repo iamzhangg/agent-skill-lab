@@ -1,0 +1,10 @@
+{
+  "schema_version":"1.0",
+  "product":"Demo research agent",
+  "audience":"Product managers reviewing market evidence",
+  "journey":["Submit question","Agent searches","User reviews draft","Export report"],
+  "findings":[
+    {"id":"UX-001","dimension":"control","state":"Before export","severity":"critical","evidence":"Export immediately publishes a share link without preview or confirmation.","consequence":"A user can disclose an unfinished report.","recommendation":"Add a private preview and explicit publish confirmation that names the audience.","acceptance_criteria":"Given an unpublished report, export creates a private preview and no public URL exists until the user confirms Publish."},
+    {"id":"UX-002","dimension":"observability","state":"Search in progress","severity":"medium","evidence":"The interface shows a spinner but no current step or source count.","consequence":"Users cannot distinguish progress from a stalled run.","recommendation":"Show the current stage, elapsed time, sources checked, and a cancel action.","acceptance_criteria":"While search runs, the current stage and cancel control are announced visually and to assistive technology."}
+  ]
+}

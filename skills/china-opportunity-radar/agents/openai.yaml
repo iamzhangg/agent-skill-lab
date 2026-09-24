@@ -1,0 +1,5 @@
+interface:
+  display_name: "China Opportunity Radar"
+  short_description: "Evidence-backed China market opportunity discovery"
+  brand_color: "#C84B31"
+  default_prompt: "Use $china-opportunity-radar to turn these market signals into testable product opportunities."
