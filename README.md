@@ -18,6 +18,18 @@ An original, bilingual portfolio of production-minded Agent Skills. Each Skill c
 | [`repo-to-skill`](skills/repo-to-skill/SKILL.md) | “改装开源 Skill”容易沦为换皮或遗漏许可证 | provenance record + license gate + original-value check |
 | [`skill-benchmark`](skills/skill-benchmark/SKILL.md) | Skill 的效果常靠截图和单次演示证明 | 场景化断言、阻断项、机器可读评分报告 |
 
+## Standalone repositories
+
+Each Skill can be installed and maintained independently:
+
+| Repository | Install |
+|---|---|
+| [iamzhangg/cn-source-research](https://github.com/iamzhangg/cn-source-research) | `npx skills add iamzhangg/cn-source-research` |
+| [iamzhangg/repo-to-skill](https://github.com/iamzhangg/repo-to-skill) | `npx skills add iamzhangg/repo-to-skill` |
+| [iamzhangg/skill-benchmark](https://github.com/iamzhangg/skill-benchmark) | `npx skills add iamzhangg/skill-benchmark` |
+
+This monorepo remains the architecture, integration, and shared-tooling hub. The standalone repositories are self-contained distributions with their own examples, tests, and CI.
+
 ## 60-second demo
 
 No runtime dependencies are required.
